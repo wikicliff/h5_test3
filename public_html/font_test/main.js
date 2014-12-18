@@ -104,7 +104,7 @@ var PlayScreen = me.ScreenObject.extend( {
 		// ---- multiline testing -----
 		
 		// font text
-		var text = "this is a multiline\nfont test with melonjs\nand it works!";
+		var text = "this is a multiline\nfont test with melonjs\nand it works!\nwiki changes.";
 		this.font.textAlign = "center";		
 		this.font.draw(context, text, 75, 230);
 
